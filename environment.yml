@@ -1,11 +1,13 @@
-name: network_visualization
+name: Rcode_Figure2
 channels:
   - conda-forge
 dependencies:
+  - python=3.9
+  - mamba
   - r-base=4.3
   - r-tidyverse
-  - r-qgraph
   - r-ggplot2
   - r-knitr
   - r-rmarkdown
-  - r-devtools
+  - pip
+  - jupyterlab
