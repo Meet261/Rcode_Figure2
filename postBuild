@@ -5,14 +5,5 @@ R -e "install.packages('remotes')"
 # Install FlowR from GitHub using remotes
 R -e "remotes::install_github('flowr-analysis/rstudio-addin-flowr')"
 
-# Fix permissions for Conda cache
-mkdir -p /tmp/conda_pkgs /tmp/conda_cache
-chmod -R 777 /tmp/conda_pkgs /tmp/conda_cache
-
-# Configure Conda to use temporary directories
-echo "export CONDA_PKGS_DIRS=/tmp/conda_pkgs" >> ~/.bashrc
-echo "export CONDA_CACHE_DIR=/tmp/conda_cache" >> ~/.bashrc
-source ~/.bashrc
-
-# Clean up after the build
-mamba clean --all -f -y
+# Install additional R packages not covered in `environment.yml`
+Rscript -e "if (!requireNamespace('qgraph', quietly = TRUE)) install.packages('qgraph', repos = 'http://cran.us.r-project.org')"
