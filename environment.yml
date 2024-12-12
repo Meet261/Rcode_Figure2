@@ -1,13 +1,12 @@
-name: Rcode_Figure2
+name: rcode-figure2
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
-  - mamba
   - r-base=4.3
+  - r-qgraph
   - r-tidyverse
-  - r-ggplot2
   - r-knitr
   - r-rmarkdown
-  - pip
-  - jupyterlab
+  - r-devtools
+  - r-ggplot2
+  - r-matrix
