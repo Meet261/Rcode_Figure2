@@ -1,6 +1,7 @@
 # Rcode_Figure2
 
-This repository contains the Original R codefile data and resources from [Ongoing and future challenges of the network approach to psychopathology: From theoretical conjectures to clinical translations](https://osf.io/3kem6/).
+This repository is part of an effort under the **CodeInspector Project** to create Binder-ready repositories from open-source OSF projects. CodeInspector aims to enhance research reproducibility by providing browser-based environments that automate the evaluation of statistical codes, particularly those written in R. 
+This contains the Original R codefile data and resources from [Ongoing and future challenges of the network approach to psychopathology: From theoretical conjectures to clinical translations](https://osf.io/3kem6/).
 
 Click the button below to launch this repository in Binder with an Jupyter notebook + R:
 
@@ -33,6 +34,18 @@ To create a Docker image for this repository using `repo2docker`, follow these s
    jupyter-repo2docker https://github.com/Meet261/Rcode_Figure2
     
 ---
+
+### About CodeInspector
+
+CodeInspector aims to enhance research reproducibility by providing browser-based environments that automate the evaluation of statistical codes, particularly those written in R. 
+
+The project supports reproducibility through the following goals:
+
+1. **Dependency Resolution**: Automatically identifies and resolves all package and data dependencies.
+2. **Containerization**: Creates Docker images to facilitate browser-based code execution.
+3. **Evaluation**: Ensures code reproducibility by verifying dependencies, executable analysis, and original results replication.
+
+CodeInspector adheres to FAIR principles (Findable, Accessible, Interoperable, Reusable) to streamline statistical code reproducibility for researchers.
 
 ## Acknowledgments
 
