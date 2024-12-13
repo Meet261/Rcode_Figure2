@@ -1,4 +1,4 @@
-# Rcode_Figure2
+# Supporting Reproducibility with CodeInspector
 
 This repository is part of an effort under the **CodeInspector Project** to create Binder-ready repositories from open-source OSF projects. CodeInspector aims to enhance research reproducibility by providing browser-based environments that automate the evaluation of statistical codes, particularly those written in R. 
 This contains the Original R codefile data and resources from [Ongoing and future challenges of the network approach to psychopathology: From theoretical conjectures to clinical translations](https://osf.io/3kem6/).
