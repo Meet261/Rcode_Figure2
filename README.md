@@ -9,7 +9,7 @@ Click the button below to launch this repository in Binder with an Jupyter noteb
 
 Click the button below to launch this repository in Binder with an RStudio interface:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Meet261/Rcode_Figure2/HEAD?urlpath=rstudio)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/Meet261/Rcode_Figure2/HEAD?urlpath=rstudio)
 
 ## Contents
 
